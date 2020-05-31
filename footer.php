@@ -19,7 +19,7 @@
   </li>
 </ul>
 </div>
-<div class="container-fluid">
+
 </footer>
 
 

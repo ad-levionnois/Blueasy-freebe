@@ -134,7 +134,7 @@
       </div>
     </div>
   </section>
-</div>
+
 
 <section class="twitter">
   <div class="container">
@@ -184,13 +184,13 @@
       <input type="email" class="form-control" id="inputEmail4">
     </div>
   </div>
- <div class="form-row d-flex align-content-center">
+ <div class="form-row">
     <div class="form-group col-md-6">
       <label class="text-white">EMAIL</label>
       <input type="email" class="form-control" id="inputEmail4">
     </div>
   </div>
-  <div class="form-group d-flex align-content-center">
+  <div class="form-group">
     <label class="text-white">MESSAGE</label>
     <input type="text" class="form-control" id="message" placeholder="">
   </div>
@@ -200,10 +200,4 @@
 
 </form>
   </div>
-</div>
-
-
-
-
-
 </div>
