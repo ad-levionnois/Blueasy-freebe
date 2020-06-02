@@ -1,117 +1,52 @@
 header
-{
-  font-family: 'Segoe UI';
-  font-weight: bold;
-  background-image: url("img/en-tete.png");
-  position: relative;
-  width: 100%;
-  height: 799px;
-  background-size: cover;
-}
+{  font-family: 'Segoe UI';  font-weight: bold;  position: relative;}
 body
-{
-  font-family: 'Segoe UI';
-}
+{  font-family: 'Segoe UI';}
+.container-fluid
+{  max-width: 1920px;}
 .container
-{
-  max-width: 1170px;
-  padding-top:80px;
-  padding-bottom: 80px;
-}
-.navbar
-{
-  background-color: rgba(53, 63, 70, .85);
-  height: 150px;
-}
-a
-{
-  color: #ffffff;
-  font-size: 14px;
-  border-collapse: separate;
-  space-border:10px;
-}
-a :hover
-{
-  color: rgb(75, 202, 255);
-}
+{  max-width: 1170px;  padding-top:80px;  padding-bottom: 80px;}
 h2
-{
-  font-family: 'Segoe UI Light';
-  font-size: 30px;
-  padding-bottom: 50px;
-}
+{  font-family: 'Segoe UI Light';  font-size: 30px;  padding-bottom: 10px;}
+.deco-title
+{padding-bottom: 40px;}
 h4
-{
-  font-size: 24px;
-}
+{  font-size: 24px;  padding-top: 25px; padding-bottom: 20px;}
+.navbar
+{  background-color: rgba(53, 63, 70, .85);  height: 150px;}
+a
+{  color: #ffffff;  font-size: 14px;}
+.nav-link:hover
+{color: rgba(75, 202, 255)!important;border: 1px solid rgba(75, 202, 255);}
 .text-blue
-{
-  color: #4bcaff;
-}
-.text-banner
-{
-   font-family: 'Segoe UI Light';
-   font-weight: lighter;
-   font-size: 42px;
-   background-color: rgba(53, 63, 70, .85);
-   color: #ffffff;
-   margin-bottom: 12px;
-}
+{color: #4bcaff;}
+.hero
+{  background-image: url("img/en-tete.jpg");  position: relative;  width: 100%;  height: 799px;  background-size: cover;}
+.text-hero
+{  font-family: 'Segoe UI Light'; font-weight: lighter;   font-size: 42px;   background-color: rgba(53, 63, 70, .85);   color: #ffffff;}
 .container-banner
-{
-  padding-top: 250px;
-}
+{ padding-top: 250px;}
 .services
-{
-  font-family: 'Myriad Pro Regular';
-  background-color: #4bcaff;
-  color: #ffffff;
-  max-height: 404px;
-  font-size: 12px;
-
-}
- img
-{
-  padding-bottom: 25px;
-}
-.portfolio
-{
-  background-color: #ffffff;
-  min-height: 846px;
-}
-.img-porfolio > img
-{
-  width: 270px;
-  height: 270px;
-}
+{ font-family: 'Myriad Pro Regular';  background-color: #4bcaff;  color: #ffffff;  max-height: 404px;  font-size: 12px;}
+portfolio
+{ background-color: #ffffff; min-height: 846px;}
+portfolio > img
+{ width: 270px ; height: 270px;}
+#navbarNav2
+{ color: #515f67;}
+.text-dark-grey
+{ color: rgba(105, 116, 123)!important;}
 .Just_default
-{
-  background-color: #515f67;
-  min-height: 474px;
-}
-
+{ background-color: #515f67; min-height: 474px;}
 .twitter
-{
-  font-family: 'Segoe UI Light';
-  background-color: #4bcaff;
-  height: 305px;
-}
+{ font-family: 'Segoe UI Light'; background-color: #4bcaff;  height: 305px;}
 .cheesecake
-{
-  font-family: 'Myriad Pro Regular';
-}
+{ font-family: 'Myriad Pro Regular';}
 .fond-2
-{
-  background-image: url("img/fond2.png");
-  position: relative;
-  width: 100%;
-  height: 504px;
-  margin: auto;
-  background-size: cover;
-  font-size: 14px;
-}
+{  background-image: url("img/fond2.jpg");  position: relative; width: 100%;  height: 504px;  margin: auto;  background-size: cover;  font-size: 14px;}
 .icons{
   margin-left: 15px;
+  padding-bottom: 15px;
 }
 .Testimonials
 {
@@ -133,7 +68,7 @@ cite
 }
 .contact
 {
-  background-image: url("img/fond3.png");
+  background-image: url("img/fond3.jpg");
   position: relative;
   width: 100%;
   min-height: 814px;
@@ -144,27 +79,9 @@ cite
   font-size: 14px;
 }
 
-.text-contact
-{
-  padding-top: 176px;
-  font-size: 14px;
-}
-form
-{
-  font-family: 'Segoe UI';
-  font-weight: bold;
-}
+.text-contact { font-family: 'Myriad Pro Regular'; font-size: 14px;}
 
-footer
-{
-  background: #515f67;
-  min-height: 170px;
-}
-footer > .nav-link
-{
-  color: #515f67;
-}
-
+footer { background: #515f67; min-height: 170px;}
 @font-face {
     font-family: 'Segoe UI';
     src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
@@ -174,7 +91,6 @@ footer > .nav-link
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Segoe UI Semibold';
     src: url('/surface/Assets/css/fonts/all/semibold/seguisb.eot');
@@ -194,7 +110,6 @@ footer > .nav-link
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Segoe UI Light';
     src: url('/surface/Assets/css/fonts/all/light/segoeuil.eot');

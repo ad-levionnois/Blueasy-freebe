@@ -4,17 +4,17 @@
     <div class="col-lg-6">
   <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active" href="#">HOME</a>
+    <a class="nav-link active" href="#" home>HOME</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">SERVICES</a>
+    <a class="nav-link" href="#"services>SERVICES</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">PORFOLIO</a>
+    <a class="nav-link" href="#"portfolio>PORFOLIO</a>
   </li>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">CONTACT</a>
+    <a class="nav-link" href="#"contact>CONTACT</a>
   </li>
   <li class="nav-item">
     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
