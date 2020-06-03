@@ -11,44 +11,42 @@
 
   <body>
 <div class="container-fluid p-0">
-  <header>
-    <section class="hero">
+<header>
+  <section class="hero">
       <nav class="navbar navbar-expand-lg menu ">
-        <div class="container">
-          <a class="navbar-brand text-white" >BLU<span class="text-blue">E</span>ASY</a>
-
-              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar nav bg-transparent">
-                  <a class="nav-item nav-link  active" href="#" home>HOME <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link " href="#" services>SERVICES</a>
-                  <a class="nav-item nav-link " href="#" features>FEATURES</a>
-                  <a class="nav-item nav-link " href="#" portfolio>PORTFOLIO</a>
-                  <a class="nav-item nav-link " href="#" contact>CONTACT</a>
+            <div class="container">
+              <a class="navbar-brand text-white" >BLU<span class="text-blue">E</span>ASY</a>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                  <div class="navbar nav bg-transparent">
+                    <a class="nav-item nav-link  active" href="#" home>HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link " href="#" services>SERVICES</a>
+                    <a class="nav-item nav-link " href="#" features>FEATURES</a>
+                    <a class="nav-item nav-link " href="#" portfolio>PORTFOLIO</a>
+                    <a class="nav-item nav-link " href="#" contact>CONTACT</a>
+                  </div>
                 </div>
-              </div>
             </div>
       </nav>
-      <div class="container text-center pt-5">
-        <p class="text-hero ">“I’M LOOKING FOR THE UNEXPECTED.</p>
-        <p class="text-hero">I’M LOOKING FOR THINGS I’VE NEVER SEEN BEFORE.” </p>
-      </div>
+        <div class="container text-center pt-5">
+          <p class="text-hero ">“I’M LOOKING FOR THE UNEXPECTED.</p>
+          <p class="text-hero">I’M LOOKING FOR THINGS I’VE NEVER SEEN BEFORE.” </p>
+        </div>
   </section>
 </header>
 <main>
 
 
-
-
+      <!--SERVICES-->
   <section class="services">
     <div class="container">
       <h2>SERVICES</h2>
-      <img class ="deco-title" src="deco-line.png" alt="ligne-title">
-        <div class="row icons ">
-          <div class="col-lg-3">
-            <img src="icons/coffee.png" alt="coffee">
-              <h4>COFFEE</h4>
+        <img class ="deco-title" src="deco-line.png" alt="ligne-title">
+          <div class="row icons ml-0">
+            <div class="col-lg-3 m-0">
+              <img src="icons/coffee.png" alt="coffee">
+                <h4>COFFEE</h4>
                 <p >Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
-          </div>
+            </div>
           <div class="col-lg-3">
             <img src="icons/instant.png" alt="instant">
               <h4>INSTANT</h4>
@@ -64,7 +62,7 @@
               <h4>FRAME</h4>
                 <p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
           </div>
-      </div>
+        </div>
     </div>
   </section>
 
@@ -72,48 +70,69 @@
 
 
 
-
-  <section class="portfolio ">
-    <div class="container ">
+    <!--PORTFOLIO-->
+<section class="portfolio ">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="pl-0" >PORTFOLIO</h2>
+          <img class ="deco-title" src="deco-line2.png" alt="ligne-title">
+      </div>
+    <div class="col-lg-6 ">
       <nav class="navbar navbar-expand-lg bg-transparent">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <h2 class="pl-0" >PORTFOLIO</h2>
-                <img class ="deco-title" src="deco-line2.png" alt="ligne-title">
-            </div>
-          <div class="col-lg-6">
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse  d-flex justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
+        <div class="collapse navbar-collapse  d-flex justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
               <a class="nav-item nav-link  text-dark-grey active" href="#" all>ALL <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link  text-dark-grey" href="#"panoramas>PANORAMAS</a>
               <a class="nav-item nav-link text-dark-grey" href="#"panoramas>PORTRAIT</a>
               <a class="nav-item nav-link  text-dark-grey" href="#" macro>MACRO</a>
               <a class="nav-item nav-link  text-dark-grey" href="#"journal>JOURNAL</a>
-            </div>
-          </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div> <!-- fin col  -->
+  </div> <!--fin row -->
+
   <div class="img-portfolio">
-      <img class="overlay pr-0 " src="img/portfolio/image1.jpg" alt="image1">
-      <img class="overlay " src="img/portfolio/image2.jpg" alt="image2">
-      <img class="overlay " src="img/portfolio/image3.jpg" alt="image3">
-      <img class="overlay  pr-0" src="img/portfolio/image4.jpg" alt="image4">
-      <img class="overlay  pl-0" src="img/portfolio/image5.jpg" alt="image5">
-      <img class="overlay " src="img/portfolio/image6.jpg" alt="image6">
-      <img class="overlay " src="img/portfolio/image7.jpg" alt="image7">
-      <img class="overlay pr-0" src="img/portfolio/image8.jpg" alt="image8">
-      </div>
+       <div class="row">
+    <div class="col-lg-3">
+      <img class="mb-4" src="img/portfolio/image1.jpg" alt="image1">
+
     </div>
+    <div class="col-lg-3">
+      <img  class="mb-4" src="img/portfolio/image2.jpg" alt="image2">
+
+    </div>
+    <div class="col-lg-3">
+      <img class="mb-4" src="img/portfolio/image3.jpg" alt="image3">
+
+    </div>
+    <div class="col-lg-3">
+      <img  class="mb-4" src="img/portfolio/image4.jpg" alt="image4">
+
+    </div>
+  </div>
+        <div class="row">
+      <div class="col-lg-3">
+        <img  src="img/portfolio/image5.jpg" alt="image5">
+
+      </div>
+      <div class="col-lg-3">
+        <img  src="img/portfolio/image6.jpg" alt="image6">
+
+      </div>
+      <div class="col-lg-3">
+        <img src="img/portfolio/image7.jpg" alt="image7">
+      </div>
+      <div class="col-lg-3">
+        <img  src="img/portfolio/image8.jpg" alt="image8">
+      </div>
+    </div> <!-- fin row -->
+  </div> <!--  fin img-portfolio -->
   </section>
 
 
-
+   <!-- JUST DEFAULT -->
   <section class="Just_default">
     <div class="container ">
       <div class="row">
@@ -127,11 +146,11 @@
       <div class="col-lg-6">
           <iframe  title="zaz"src="https://player.vimeo.com/video/22403685" width="558" height="313" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </div>
-    </div>
-  </div>
+    </div> <!-- fin row  -->
+  </div> <!-- fin container  -->
   </section>
 
-
+      <!-- TWITTER  -->
 <section class="twitter">
   <div class="container">
     <div class="row padding-twitter">
@@ -144,11 +163,11 @@
      <div class="col-lg-1">
         <img class=""src="icons/twitter.png" alt="twitter">
      </div>
-     </div>
-  </div>
+   </div> <!-- fin row  -->
+ </div> <!-- fin container  -->
 </section>
 
-
+    <!-- WHO IS  -->
 <section class="fond-2 mt-0">
   <div class="container ">
     <h2 class="john text-white">WHO IS JOHN DOE?</h2>
@@ -156,7 +175,6 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <p class="text-white">Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p></br>
-
           <p class="text-white"> Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.</p>
         </div>
       <div class="col-lg-6">
@@ -166,12 +184,12 @@
       <img class="icons"src="icons/icon_dribbble.png" alt="dribbble">
       <img class="icons"src="icons/icon_coffee.png" alt="coffee">
     </div>
-  </div>
-  </div>
+  </div> <!-- fin row  -->
+</div> <!-- fin container  -->
 </section>
 
 
-
+      <!-- TESTIMONIALS  -->
 <section class="Testimonials  ">
     <div class="container bg-write align-items-center ">
       <div class="row">
@@ -184,12 +202,12 @@
       <div class="col-lg-1">
         <p class="guillemet">”</p>
       </div>
-    </div>
-  </div>
+    </div> <!--  fin row -->
+  </div> <!-- fin container  -->
 </section>
 
 
-
+      <!-- CONTACT -->
 <section class="contact">
     <div class="container">
       <h2 class="text-white ">CONTACT</h2>
@@ -221,7 +239,7 @@
         </textarea> </br>
           <button type="submit" class="btn btn-primary ">MESSAGE</button>
     </div>
-</div>
+  </div> <!-- fin container  -->
 </section>
 
 
